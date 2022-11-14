@@ -1,2 +1,3 @@
-# may-kumar.github.io
-My Personal Website: https://may-kumar.github.io/
+# Mayank Kumar
+Repo for my personal website<br>
+You can view it at https://may-kumar.github.io/
