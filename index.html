@@ -15,7 +15,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style-2.css">
     <link rel="shortcut icon" type="image/jpg" href="resources/MK.jpg">
     <title>Mayank Kumar</title>
   </head>
@@ -70,7 +70,7 @@
                 <div class="py-2">
                     <p class="paper my-2 pl-2">
                         <span class="papertitle">A Wireless Sensor Network for Precision Agriculture</span><br>
-                        Used multiple motes spaced regularly to monitor and track the growth of a particular crop.<br>
+                        We used multiple motes spaced regularly in a grid to monitor and track the growth of a particular crop.<br>
                         For this project, we developed our own network stack to make it as dynamic and robust as possible while conserving power. <br>
                         There was a GUI at the base-station which displayed the collected information and could be used to query into the network.
                     </p>
@@ -79,7 +79,7 @@
                 <div class="py-2">
                     <p class="paper my-2 pl-2">
                         <span class="papertitle">Smart Library Issue and Return System</span><br>
-                        Using a STM32 (Keil Development Board using ARM core), I was able to develop a fully functional system which could issue and return books from a library. Other components in the system included an ESP8266 micro-controller 
+                        Using a STM32 (Keil Development Board using ARM core), we developed a fully functional system to issue and return books from a library. Components in the system included an ESP8266 micro-controller 
                         to wirelessly communicate with the central database, an RFID scanner to identify any book, and a simple server program (which contained the database of users, books, and authors). The STM32 board included a LCD touch screen   
                         which was used to display prompts and take inputs from the user.
                     </p>
@@ -87,8 +87,30 @@
 
                 <div class="py-2">
                     <p class="paper my-2 pl-2">
+                        <span class="papertitle">Using an Embedded Device to play music from a SD-Card</span><br>
+                        Using an LPC2378(ARM chip based) development board, we implemented a simple music player. There were buttons to play and pause the music, go to the next or previous song, and to skip a few seconds or go back a few seconds in the song.
+                        The songs were stored on a SD-Card(NTFS filesystem) in WAV format. The development board had a 2 column LCD screen which was used to display the status.<br>
+                        <a class="tag" href="https://github.com/may-kumar/music-player_LPC-2378" target="_blank">Github Link</a><span class="tagsep"></span>
+                    </p>
+                </div>
+
+                <div class="py-2">
+                    <p class="paper my-2 pl-2">
+                        <span class="papertitle">Simulated a Voice Digitizer using a x86 machine</span><br>
+                        The main aim of this project was to simulate a complete embdedded device. We used an 8086 microprocessor interfaced with various peripherals to record an analog signal from an ADC. 
+                        The signal was stored in memory and could be replayed using a button. A numpad was provided if the user wanted to add delay between each value within the signal.<br>
+                        The project involved I/O mapping, memory mapping, clock generation, and the use of Interrupts. The system was designed using
+                        the MASM Assembly language and simulated on Proteus software.
+                        <br>
+                        <a class="tag" href="https://github.com/may-kumar/voice-digitizer" target="_blank">Github Link</a><span class="tagsep"></span>
+                    </p>
+                </div>
+
+
+                <div class="py-2">
+                    <p class="paper my-2 pl-2">
                         <span class="papertitle">Wireless Analog Communication between Arduinos using Copper Rod Antennas</span><br>
-                        We were able to use two Arduinos to send and recieve messages wirelessly through radio frequency waves. <br>
+                        We used two Arduinos to send and recieve messages wirelessly through radio frequency waves. <br>
                         Copper rods were used as antennas to transmit and receive a frequency of 433 MHz up until a distance of about 130 feet.<br>
                         <a class="tag" href="https://drive.google.com/file/d/10F5i16QkX3zjTKIrjpsquajr9H424coX/view?usp=sharing" target="_blank">Video</a><span class="tagsep">|</span>
                         <a class="tag" href="https://docs.google.com/presentation/d/1dWri9LgW43qnPwW2F-aMOKDvaZV9btNR/edit?usp=sharing&ouid=105458790359364555403&rtpof=true&sd=true" target="_blank">Slides</a><span class="tagsep"></span>
@@ -138,7 +160,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="assets/style.js"></script>
+    <script src="assets/style-2.js"></script>
 </body>
   <style>
   </style>
